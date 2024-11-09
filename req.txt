@@ -1,0 +1,26 @@
+pip install setuptools
+
+# Install CMake (required for dlib)
+pip install cmake
+
+# Install dlib
+pip install dlib
+
+# Install setuptools (for pkg_resources)
+pip install setuptools
+
+# Install face_recognition_models
+pip install git+https://github.com/ageitgey/face_recognition_models
+
+# Finally install face_recognition
+pip install face_recognition
+
+
+
+The main reasons these signs are difficult to detect:
+
+6: Often involves fingers close together
+e: Curved fingers can be hard to distinguish
+j: Movement-based sign, hard to capture in static image
+m, n: Fingers might be too close together
+q, s, t: Complex finger positions
